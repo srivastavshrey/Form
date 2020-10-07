@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    background-color:#4A56e2;
+}
+
+div{
+    position: absolute;
+    left:10%;
+    top:10%;
+}
+form{
+    padding: 50px;
+    font-size: large;
+    font-weight: bold;
+    color: #303030;
+    font-family: 'Montserrat', sans-serif;
+    background:linear-gradient(90deg,#ffffff 90%,#E8E4FD);
+    border-left: 0.5px solid lightgrey;
+    border-radius: 5%;
+    box-shadow: 2px 1px 2px 1px lightgray;
+    line-height: 40px;
+}
+span{
+    position: absolute;
+    left: 25%;
+    top:10%;
+     font-size: xx-large;
+
+}
+label{ display: inline-block;
+     float: left;
+     clear: left;
+     width: 250px;
+     padding: 10px;
+
+}
+input{
+    position: relative;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    border-bottom:2px solid darkgrey;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-family: 'Montserrat', sans-serif;
+    }
+#view-password{
+   position: absolute;
+   top: 74%;
+   left: 92%;
+   font-size: medium;
+    }
+#unhide{
+    display: none;
+}
+button{
+    width: 25%;
+    height:40px;
+    margin: 10px;
+    margin-top: 8%;
+    background-color: #4A56e2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+}
+#message{
+    position: absolute;
+    top:20%;
+    left: 60%;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 4rem;
+    color: #E8E4FD;
+}

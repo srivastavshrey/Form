@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div>
+    <form>
+        <img src="https://img.icons8.com/wired/64/000000/test-account.png"/><span>Registertation Form</span><br><br>
+        <label for="Firstname">First Name</label>
+        <input type="text" onclick="giveInstruction1()" name="Firstname" id="Firstname" placeholder="Enter Your Firstname"><br>
+        <label for="Lastname">Last Name</label>
+        <input type="text" onclick="giveInstruction2()" name="Lastname" id="Lastname" placeholder="Enter Your Lastname"><br>
+        <label for="Email">Email</label>
+        <input type="email"  onclick="giveInstruction3()" name="Email" id="Email" placeholder="abc@xyzmail.com"><br>
+        <label for="PhoneNo.">Phone Number</label>
+        <input type="text"  onclick="giveInstruction4()" name="PhoneNo." id="PhoneNo." placeholder="Enter Your 10 digit phone number"><br>
+        <label for="DOB">Date of Birth</label>
+        <input type="date"  onclick="giveInstruction5()" name="DOB" id="DOB"><br>
+        <label for="Password">Password</label>
+        <input type="password"  onclick="giveInstruction6()" name="Password" id="Password" placeholder="********">
+        <span id="view-password"onclick ="trigger()">
+            <i class="fa fa-eye" id="unhide"></i>
+            <i class="fa fa-eye-slash" id="hide"></i> 
+        </span>
+  <br><br><br>
+        <button type="submit">Register</button>
+    </form>
+    </div>
+    <div id="message">
+    </div>
+   <script src="app.js"></script>
+</body>
+</html>
